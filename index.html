@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrandenBeef | Biofleisch mit Herkunft und Haltung</title>
+    <meta
+      name="description"
+      content="BrandenBeef steht für regionale Direktvermarktung von Bio-Fleisch aus guter, nachhaltiger Haltung ohne Pestizide und Hormone."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Work+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#start" class="nav-brand">
+            <img
+              src="assets/logo.png"
+              alt="BrandenBeef Logo"
+              class="brand-logo"
+              onerror="this.style.display='none';document.getElementById('logo-fallback').style.display='block';"
+            />
+
+        </a>
+        <ul class="nav-links">
+          <li><a href="#werte">Werte</a></li>
+          <li><a href="#qualitaet">Qualität</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="#impressum">Impressum</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="start">
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="logo-wrap">
+
+            <div id="logo-fallback" class="logo-fallback" aria-hidden="true">
+              <span>BrandenBeef</span>
+            </div>
+          </div>
+          <p class="eyebrow">Biofleisch mit Herkunft und Haltung</p>
+          <h1>Direkt vom Hof auf deinen Teller.</h1>
+          <p class="lead">
+            Wir vermarkten hochwertiges Bio-Fleisch aus verantwortungsvoller Landwirtschaft:
+            nachhaltig, regional und ohne Einsatz von Pestiziden oder Hormonen.
+          </p>
+          <a href="#kontakt" class="btn-primary">Jetzt anfragen</a>
+        </div>
+      </section>
+
+      <section id="werte" class="section container">
+        <h2>Wofür BrandenBeef steht</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Artgerechte Haltung</h3>
+            <p>
+              Unsere Tiere leben in guter Haltung mit Respekt, Platz und natürlichen
+              Bedingungen.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Nachhaltige Landwirtschaft</h3>
+            <p>
+              Wir arbeiten im Einklang mit der Natur und setzen auf zukunftsfähige,
+              ressourcenschonende Bewirtschaftung.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Natürliches Futter</h3>
+            <p>
+              Bei uns kommen keine Hormone und keine Pestizide zum Einsatz. Qualität beginnt
+              bei der Aufzucht.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="qualitaet" class="section section-alt">
+        <div class="container grid two">
+          <div>
+            <h2>Transparenz, die man schmeckt</h2>
+            <p>
+              Als Direktvermarkter kennen wir jeden Schritt vom Stall bis zur Vermarktung.
+              Unsere Kundinnen und Kunden erhalten ehrliches Bio-Fleisch mit klarer Herkunft
+              aus der Region.
+            </p>
+            <ul class="checklist">
+              <li>Regional erzeugt und direkt vermarktet</li>
+              <li>Kurze Transportwege</li>
+              <li>Sorgfältige Verarbeitung</li>
+              <li>Klare Herkunft und persönliche Beratung</li>
+            </ul>
+          </div>
+          <div class="image-panel" role="img" aria-label="Zwei Rinder auf der Weide"></div>
+        </div>
+      </section>
+
+      <section id="kontakt" class="section container">
+        <h2>Kontakt</h2>
+        <p class="contact-text">
+          Du möchtest Bio-Fleisch direkt vom Erzeuger beziehen? Schreib uns gern eine
+          Nachricht.
+        </p>
+        <p class="contact-box">
+          E-Mail: <a href="mailto:lasse@brandenbeef.de">lasse@brandenbeef.de</a><br />
+          Telefon: <a href="tel:+491773683297">+49 177 3683297</a>
+        </p>
+      </section>
+    </main>
+
+    <footer id="impressum" class="footer">
+      <div class="container">
+        <h2>Impressum</h2>
+        <p>Angaben gemäß § 5 TMG</p>
+        <p><strong>Lasse Brandt</strong></p>
+        <p>BrandenBeef</p>
+        <p>Knoblaucher Weg 8g<br>14641 Wustermark</p>
+        <p>
+          E-Mail: <a href="mailto:info@brandenbeef.de">info@brandenbeef.de</a>
+        </p>
+        <p class="copyright">&copy; <span id="year"></span> BrandenBeef</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
