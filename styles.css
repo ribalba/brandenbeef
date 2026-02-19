@@ -204,13 +204,26 @@ h1 {
   margin: 0.45rem 0;
 }
 
-.image-panel {
+.image-panel-cow {
   border-radius: 18px;
   box-shadow: var(--shadow);
   min-height: 280px;
   background:
     linear-gradient(170deg, rgba(31, 45, 31, 0.26), rgba(31, 45, 31, 0.08)),
     url("assets/rinder.jpg"),
+    linear-gradient(120deg, #c9d9b5, #9cbf86 55%, #6c9461);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-panel-lasse {
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  min-height: 180px;
+  background:
+    linear-gradient(170deg, rgba(31, 45, 31, 0.26), rgba(31, 45, 31, 0.08)),
+    url("assets/lasse.png"),
     linear-gradient(120deg, #c9d9b5, #9cbf86 55%, #6c9461);
   background-size: cover;
   background-position: center;
