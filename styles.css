@@ -270,6 +270,10 @@ h1 {
   color: #ffe2b8;
 }
 
+.bank-details {
+  margin-top: 1.2rem;
+}
+
 .copyright {
   margin-top: 1.2rem;
   opacity: 0.84;
